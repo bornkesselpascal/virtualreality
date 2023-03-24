@@ -1,20 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
     public float speed;
     public bool keyboard;
-    public GameObject pick_ups;
+    public GameObject ball;
     private Rigidbody rb;
-    private int count;
+    private int fail_count;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        count = 0;
+        fail_count = 0;
     }
 
     // FixedUpdate is better for physics simulation
@@ -41,14 +42,20 @@ public class PlayerControl : MonoBehaviour
         {
             // Dekativieren des jeweiligen Pick Up
             other.gameObject.SetActive(false);
-            count += 1;
+            fail_count = 0;
         }
 
-                // Prüfung auf das Tag "Pick Up"
+        // Prüfung auf das Tag "No Pick Up"
         if (other.gameObject.CompareTag("No Pick Up"))
         {
-            // Dekativieren aller Pick Ups
-            pick_ups.SetActive(false);
+            fail_count += 1;
+
+            // 2x hintereinander ein "Non-Pick Up" berührt
+            // -> Board verloren (Ball wegnehmen)
+            if(fail_count >= 2)
+            {
+                ball.SetActive(false);
+            }
         }
     }
 }
