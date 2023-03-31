@@ -18,5 +18,20 @@ public class SkriptFly : MonoBehaviour
         if(Input.GetKey(KeyCode.W)) {
             this.transform.Translate (Vector3.forward * speed * Time.deltaTime);
         }
+        if(Input.GetKey(KeyCode.A)) {
+            this.transform.Rotate(0.0f, 1.0f, 0.0f);
+        }
+        if(Input.GetKey(KeyCode.S)) {
+            this.transform.Translate (Vector3.back * speed * Time.deltaTime);
+        }
+        if(Input.GetKey(KeyCode.D)) {
+            this.transform.Rotate(0.0f, -1.0f, 0.0f);
+        }
+        if(Input.GetKey(KeyCode.Q)) {
+            this.transform.Translate (Vector3.down * speed * Time.deltaTime);
+        }
+        if(Input.GetKey(KeyCode.A)) {
+            this.transform.Translate (Vector3.up * speed * Time.deltaTime);
+        }
     }
 }
