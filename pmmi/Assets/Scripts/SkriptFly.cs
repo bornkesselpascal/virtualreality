@@ -30,7 +30,7 @@ public class SkriptFly : MonoBehaviour
         if(Input.GetKey(KeyCode.Q)) {
             this.transform.Translate (Vector3.down * speed * Time.deltaTime);
         }
-        if(Input.GetKey(KeyCode.A)) {
+        if(Input.GetKey(KeyCode.E)) {
             this.transform.Translate (Vector3.up * speed * Time.deltaTime);
         }
     }

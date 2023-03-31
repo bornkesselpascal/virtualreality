@@ -4194,8 +4194,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892809181918478246, guid: 02b150a888721474d9e509ad7e073124,
         type: 3}
+      propertyPath: field of view
+      value: 60.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892809181918478246, guid: 02b150a888721474d9e509ad7e073124,
+        type: 3}
+      propertyPath: m_FocalLength
+      value: 20.78461
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892809181918478246, guid: 02b150a888721474d9e509ad7e073124,
+        type: 3}
       propertyPath: far clip plane
       value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892809181918478246, guid: 02b150a888721474d9e509ad7e073124,
+        type: 3}
+      propertyPath: m_projectionMatrixMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4892809183086953056, guid: 02b150a888721474d9e509ad7e073124,
         type: 3}
