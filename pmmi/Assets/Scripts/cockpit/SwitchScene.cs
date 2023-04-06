@@ -16,7 +16,7 @@ public class SwitchScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(this.transform.rotation.y > 0.99)
+        if(this.transform.rotation.x > 0.12)
         {
             Debug.Log("Now I switch the scene...");
             SceneManager.LoadScene(scene);
