@@ -35,6 +35,8 @@ Die Szene zur Inspektion des Fluggerätes erfüllt alle in der Aufgabenstellung 
      * **Partikelsystem** - Es wurde ein Feuer-Partikelsystem hinzugefügt, welche den Nachbrenner darstellen sollen.
      
 * **Wechsel zur Cockpit-Szene** - Da der Spieler kleiner ist als das Flugzeug und dadurch nicht das Cockpit erreichen kann wurde der Wechsel in die Cockpit-Szene durch Bewegung des rechten Carnards (vorne angebrachtes Höhenleitwerk) um 45°.
+     * **Hand** - Um auf die Möglichkeit des Szenenwechsels hinzuweisen wurde eine weiße Hand hinzugefügt, die per Skript bewegt wird. 
+     * **Kommunikation mit Tower** - Der Spieler hört zu Beginn ein Funkspruch des Towers, der ihn auf den Szenenwechsel hinweist. 
 
 * **Szenerie**
      * **Flughafen** - Es wurde ein Flughafen mit Startbahn, Tower, Hangars und Begleitbauwerken in die Szene eingefügt.
