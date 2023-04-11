@@ -28,7 +28,7 @@ Als Fluggerät wurde sich für den _Eurofighter Typhoon_ entschieden. Das Modell
 ### Teil 2 - Inspektion
 Die Szene zur Inspektion des Fluggerätes erfüllt alle in der Aufgabenstellung beschriebenen grundlegenden Anforderungen. Im Folgenden sollen einige Details und Erweiterungen näher beschrieben werden.
 
-![Bild](https://i.ibb.co/SsS4Fb3/inspektion.png)
+![Bild](docs/inspektion.png)
 
 * **Verbesserungen am Flugmodell**
      * **Sound** - Es wurde eine 3D-Soundquelle für die laufenden Triebwerke eingebaut.
