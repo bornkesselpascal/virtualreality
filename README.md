@@ -51,3 +51,10 @@ Die Szene zur Inspektion des Fluggerätes erfüllt alle in der Aufgabenstellung 
 
 ### Teil 3 - Cockpit
 
+* **Verbesserungen am Flugmodell**
+     * **Sound** - Es wurde eine 3D-Soundquelle für die laufenden Triebwerke eingebaut.
+     * **Partikelsystem** - Es wurde ein Rauch-Partikelsystem hinzugefügt, welche die Abgase darstellen sollen.
+     * **Cockpit** - Da das ausgewählte Flugmodell ein nicht umfangreich modelliertes 3D-Cockpit hatte, wurde ein Cockpit-Modell einer F16 in den Eurofighter eingepflegt.
+     
+
+
