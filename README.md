@@ -26,7 +26,7 @@ Die Aufgaben 1 bis 6 des Teils "Roll a Ball" sowie die Aufgabe 1 des Teils "Roll
 Als Fluggerät wurde sich für den _Eurofighter Typhoon_ entschieden. Das Modell wurde von [Sketchfab](https://sketchfab.com/) heruntergeladen und als Autodesk FBX-Datei in Unity importiert.
 
 ### Teil 2 - Inspektion
-Die Szene zur Inspektion des Fluggerätes erfüllt alle in der Aufgabenstellung beschriebenen grundlegenden Anforderungen. Im Folgenden sollen einige Details und Erweiterungen näher beschrieben werden.
+Die Szene zur Inspektion des Fluggerätes erfüllt alle in der Aufgabenstellung (Blatt 2) beschriebenen grundlegenden Anforderungen. Im Folgenden sollen einige Details und Erweiterungen näher beschrieben werden.
 
 ![Bild](docs/inspektion.png)
 
@@ -50,6 +50,7 @@ Die Szene zur Inspektion des Fluggerätes erfüllt alle in der Aufgabenstellung 
 
 
 ### Teil 3 - Cockpit
+Die Szene im Cockpit des Fluggerätes erfüllt alle in der Aufgabenstellung (Blatt 2) beschriebenen grundlegenden Anforderungen. Im Folgenden sollen einige Details und Erweiterungen näher beschrieben werden.
 
 * **Verbesserungen am Flugmodell**
      * **Sound** - Es wurde eine 3D-Soundquelle für die laufenden Triebwerke eingebaut.
