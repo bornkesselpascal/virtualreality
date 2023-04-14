@@ -12,6 +12,7 @@ public class DisplayFlightData : MonoBehaviour
     public GameObject player;
     public float warningHeight;
     public GameObject warnImage;
+    public AudioSource warnSound;
     private FlyJoystick flyJoystick;
     private bool warnImageState = false;
     private bool blinkActive = false;
@@ -38,6 +39,7 @@ public class DisplayFlightData : MonoBehaviour
         {
             if (!blinkActive)
             {
+                warnSound.Play();
                 StopAllCoroutines();
                 StartCoroutine("Blink");
                 textHeight.color = Color.red;
@@ -48,6 +50,7 @@ public class DisplayFlightData : MonoBehaviour
         {
             if (blinkActive)
             {
+                warnSound.Stop();
                 StopAllCoroutines();
                 warnImage.SetActive(false);
                 textHeight.color = Color.white;
