@@ -9171,6 +9171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1674309072}
   - component: {fileID: 1674309073}
+  - component: {fileID: 1674309074}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -9209,6 +9210,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 100
+--- !u!114 &1674309074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674309071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0a3c52c0fdad64398e9aaf6a30ae6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  speedAmplifier: 60
+  rotationSpeed: 15
 --- !u!1001 &1748281189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14980,7 +14996,7 @@ PrefabInstance:
     - target: {fileID: 4892809183086953056, guid: 02b150a888721474d9e509ad7e073124,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.857
+      value: 7.3
       objectReference: {fileID: 0}
     - target: {fileID: 4892809183086953056, guid: 02b150a888721474d9e509ad7e073124,
         type: 3}
@@ -15019,8 +15035,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892809183086953058, guid: 02b150a888721474d9e509ad7e073124,
         type: 3}
+      propertyPath: m_MoveSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892809183086953058, guid: 02b150a888721474d9e509ad7e073124,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892809183086953058, guid: 02b150a888721474d9e509ad7e073124,
+        type: 3}
+      propertyPath: m_EnableStrafe
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892809183086953059, guid: 02b150a888721474d9e509ad7e073124,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4892809183086953063, guid: 02b150a888721474d9e509ad7e073124,
         type: 3}
