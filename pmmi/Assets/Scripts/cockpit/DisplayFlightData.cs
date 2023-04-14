@@ -40,7 +40,7 @@ public class DisplayFlightData : MonoBehaviour
             if (!blinkActive)
             {
                 warnSound.Play();
-                StopAllCoroutines();
+                StopCoroutine("Blink");
                 StartCoroutine("Blink");
                 textHeight.color = Color.red;
                 blinkActive = true;
@@ -51,7 +51,7 @@ public class DisplayFlightData : MonoBehaviour
             if (blinkActive)
             {
                 warnSound.Stop();
-                StopAllCoroutines();
+                StopCoroutine("Blink");
                 warnImage.SetActive(false);
                 textHeight.color = Color.white;
                 blinkActive = false;
