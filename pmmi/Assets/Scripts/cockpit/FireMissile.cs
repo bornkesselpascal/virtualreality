@@ -6,6 +6,8 @@ public class FireMissile : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject missile;
+    public GameObject bordkanone;
+    
     void Start()
     {
         
@@ -22,5 +24,7 @@ public class FireMissile : MonoBehaviour
 
             current_missile.GetComponent<Rigidbody>().useGravity = true;
         }
+        
+        bordkanone.SetActive(Input.GetButtonDown("Fire2"));
     }
 }
