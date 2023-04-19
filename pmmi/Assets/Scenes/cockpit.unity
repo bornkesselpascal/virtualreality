@@ -7291,6 +7291,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6671666230765419395, guid: 4849d3d60befbeb47946a2e454ca8865,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 32
+      objectReference: {fileID: 0}
     - target: {fileID: 6671666231001547312, guid: 4849d3d60befbeb47946a2e454ca8865,
         type: 3}
       propertyPath: m_Layer
@@ -7300,6 +7305,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671666231074296692, guid: 4849d3d60befbeb47946a2e454ca8865,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 32
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4849d3d60befbeb47946a2e454ca8865, type: 3}
@@ -27042,6 +27052,28 @@ PrefabInstance:
       propertyPath: warnSound
       value: 
       objectReference: {fileID: 410207053}
+    - target: {fileID: 6671666230765419395, guid: 4849d3d60befbeb47946a2e454ca8865,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 0dbb88c50070c3f4f885744db5291cc0,
+        type: 2}
+    - target: {fileID: 6671666230765419395, guid: 4849d3d60befbeb47946a2e454ca8865,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671666230765419395, guid: 4849d3d60befbeb47946a2e454ca8865,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4249301847804370170, guid: 0dbb88c50070c3f4f885744db5291cc0,
+        type: 2}
+    - target: {fileID: 6671666231074296692, guid: 4849d3d60befbeb47946a2e454ca8865,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 32
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4849d3d60befbeb47946a2e454ca8865, type: 3}
 --- !u!4 &6875761711717965135
