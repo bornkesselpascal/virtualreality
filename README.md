@@ -1,6 +1,6 @@
 # Dokumentation zum Praktikum
 
-> Praktikum "Virtuelle Realität"  |  Pascal Julian Bornkessel  |  Flug- und Fahrzeuginformatik im 6. Semester
+> Praktikum "Virtuelle Realität"  |  Pascal Julian Bornkessel (00114247)  |  Flug- und Fahrzeuginformatik im 6. Semester
 
 
 ## Blatt 1 - "Roll a Ball" (24.03.2023)
