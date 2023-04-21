@@ -18,7 +18,7 @@ Die Aufgaben 1 bis 6 des Teils "Roll a Ball" sowie die Aufgabe 1 des Teils "Roll
 
 * **Cheating** -  Der Spieler kann schummeln indem er den Ball nimmt und an eine beliebige Stelle des Boards legt, sodass er die roten Pick-Ups nicht berührt.
 
-> Das Video zur Aufgabe 1 ist [hier](https://1drv.ms/u/s!AtQYIMPjZihlgc8rKIlmhtE8WPOdaA?e=dONT6f) auf OneDrive zu finden. (https://1drv.ms/u/s!AtQYIMPjZihlgc8rKIlmhtE8WPOdaA?e=dONT6f)
+> Das Video zur Aufgabe 1 ist [hier](https://1drv.ms/v/s!AtQYIMPjZihlgf8XIMUy4EVqk_IB4w?e=JhwkNN) auf OneDrive verfügbar. (https://1drv.ms/v/s!AtQYIMPjZihlgf8XIMUy4EVqk_IB4w?e=JhwkNN)
 
 
 ## Blatt 2 - "Flugsimulator" (31.03.2023)
@@ -47,6 +47,8 @@ Die Szene zur Inspektion des Fluggerätes erfüllt alle in der Aufgabenstellung 
      * **Gebirge** - In Hintergrund befindet sich ein im Neben eingehüllter Berg.
      * **Bäume und Sträucher**
      * **Wind** - Die Bäume und Sträucher bewegen sich durch den Wind aus nordwestlicher Richtung.
+
+> Das Video zur Szene **Inspektion** ist [hier](https://1drv.ms/v/s!AtQYIMPjZihlgf8Yf7sgUFY0-mGAlA?e=AGtPiR) auf OneDrive verfügbar. (https://1drv.ms/v/s!AtQYIMPjZihlgf8Yf7sgUFY0-mGAlA?e=AGtPiR)
 
 
 ### Teil 3 - Cockpit
@@ -93,3 +95,31 @@ Im Folgenden sollen die umgesetzten Erweiterungen erläutert werden.
      * **Explosion** - Per Skript wird beim Auftreffen der Bomben auf den Boden eine Explosions-Prefab (Partikelsystem) erzeugt.
 
 * **Bordkanone mit `Fire2`** - Durch drücken des `Fire2`-Buttons wird die Bordkanone aktiviert. Diese wurde ebenfalls mit einem Partikelsystem realisiert.
+
+> Das Video zur Szene **Cockpit** ist [hier](https://1drv.ms/v/s!AtQYIMPjZihlgf8Zc4CYjeVBSSvpvA?e=n8L6ps) auf OneDrive verfügbar. Es enthält die Änderungen an der Szene aus Blatt 2 und 3. (https://1drv.ms/v/s!AtQYIMPjZihlgf8Zc4CYjeVBSSvpvA?e=n8L6ps)
+
+## Blatt 4 - "Flugsimulator" (21.04.2023)
+### Teil 1 - Buttons und Slider
+Auf der Grundlage der zur Verfügung gestellten Anleitung wurden **zwei Buttons** erstellt. Darauf aufbauend wurden folgende Erweiterungen vorgenommen.
+
+* **Aktionen**
+     * **Button 1 (Quadratischer Button)** – Ein- und Ausschalten des HUD
+     * **Button 2 (Runder Button)** – Ein- und Ausschalten der Bordkanone
+
+* **Slider** – Auf Basis des Buttons wurde ein Slider erstellt. Dieser steuert die Intensität der Bordkanone.
+
+## Teil 2 – Inclination und Horizon
+Die Anzeige von *Inclination* und *Horizon* wurde wie beschrieben realisiert. Zusätzlich wurde ein Mechanismus für die Inklination basierend auf dem Flugzeug eingebaut. Hierfür wurde ein zusätzliches Skript erstellt.
+
+> Das Video zur Szene Hand Interaction ist [hier](https://1drv.ms/v/s!AtQYIMPjZihlgf8afeciaMoV3pPbJg?e=Jdt7Ta) auf OneDrive verfügbar. Es zeigt alle Änderungen in Blatt 4. (https://1drv.ms/v/s!AtQYIMPjZihlgf8afeciaMoV3pPbJg?e=Jdt7Ta)
+
+
+----
+
+## Videos
+Die Videos stehen auf Microsoft OneDrive zur Verfügung. Die Links zu den Videos befinden sich an den entsprechenden Stellen in der Dokumentation. Nachfolgend sind alle Videos aufgelistet.
+
+* [Blatt 1 – Roll a Ball.mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8XIMUy4EVqk_IB4w?e=JhwkNN)
+* [Blatt 2 bis 4 – Flugsimulator (Inspektion).mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8Yf7sgUFY0-mGAlA?e=AGtPiR)
+* [Blatt 2 bis 4 – Flugsimulator (Cockpit).mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8Zc4CYjeVBSSvpvA?e=n8L6ps)
+* [Blatt 2 bis 4 – Flugsimulator (Hand Interaction).mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8afeciaMoV3pPbJg?e=Jdt7Ta)
