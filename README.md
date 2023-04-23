@@ -1,18 +1,18 @@
-# Dokumentation zum Praktikum
+# **Dokumentation** zum Praktikum Virtuelle Realität
+> Pascal Julian Bornkessel (00114247)  |  Flug- und Fahrzeuginformatik im 6. Semester
 
-> Praktikum "Virtuelle Realität"  |  Pascal Julian Bornkessel (00114247)  |  Flug- und Fahrzeuginformatik im 6. Semester
-
+![Bild](docs/title.png)
 
 ## Blatt 1 - "Roll a Ball" (24.03.2023)
-Die Aufgaben 1 bis 6 des Teils "Roll a Ball" sowie die Aufgabe 1 des Teils "Roll a Ball VR" wurden wie beschrieben bearbeitet um das grundlegende Spiel zu erstellen. Die im Zuge der Aufgabe 2 des Teils "Roll a Ball VR" eingebauten Erweiterungen sollen im Folgenden gesondert erläutert werden. 
+Die Aufgaben 1 bis 6 des Teils "Roll a Ball" sowie die Aufgabe 1 des Teils "Roll a Ball VR" wurden wie beschrieben bearbeitet, um das Basisspiel zu erstellen. Die Erweiterungen im Rahmen der Aufgabe 2 des Teils "Roll a Ball VR" werden im Folgenden gesondert erläutert.
 
-* **Abprallen** - Es wurde das Abprallen des Balles an den Wänden hinzugefügt. Dafür wurde ein Physical Material "Wall Bounce" erstellt, welches zu den Wänden hinzugefügt wurde. Die Bounciness der Wände wurde dabei auf 1 gesetzt.
+* **Abprallen** - Das Abprallen des Balles von den Wänden wurde hinzugefügt. Dazu wurde ein Physical Material "Wall Bounce" erstellt und den Wänden hinzugefügt. Die Bounciness der Wände wurde auf 1 gesetzt.
 
-* **"feindliche" Pick-Ups** - Einige der gelben Pick-Ups wurden in rote Pick-Ups umgewandelt. Berührt der Ball _zwei mal_ einen roten Pick-Up _hintereinander_, so ist das Spiel beendet. Dies wird realisiert, indem dem Spieler der Ball weggenommen wird.
+* **"feindliche" Pick-Ups** - Einige gelbe Pick-Ups wurden in rote Pick-Ups umgewandelt. Berührt der Ball _zweimal hintereinander_ einen roten Pick-Up, ist das Spiel beendet. Dies geschieht, indem dem Spieler der Ball weggenommen wird.
 
-* **Bewegung** - Für die roten Pick-Ups wurde ein Script erstellt, welches diese mit einer bestimmten Geschwindigkeit vor und zurück bewegt. Dadurch soll die Scheiwrigkeit erhöht werden. Des Weiteren wurde für die gelben und roten Pick-Ups ein Skipt erstellt, durch das diese sich mit einer bestimmten Geschwindigkeit auf dem Board im Kreis bewegen. Dies soll, gerade im Zusammenhang mit den roten Pick-Ups, die Schwierigkeit erhöhen.
+* **Bewegung** - Für die roten Pickups wurde ein Script erstellt, das diese mit einer bestimmten Geschwindigkeit vor und zurück bewegt. Dadurch soll die Schwierigkeit erhöht werden. Des Weiteren wurde für die gelben und roten Pick-Ups ein Skript erstellt, welches diese mit einer bestimmten Geschwindigkeit im Kreis über das Board bewegt. Dies soll insbesondere bei den roten Pick-Ups die Schwierigkeit erhöhen.
 
-* **Levels** - Zur Demonstation der unterschiedlichen Schwrierigkeitsmöglichkeiten durch die Anpassungen wurden drei Level erstellt. Zur Unterscheidung werden dabei unterschiedliche Farben des Boards verwendet.
+* **Levels** - Um die unterschiedlichen Schwierigkeitsgrade der Anpassungen zu demonstrieren, wurden drei Level erstellt. Zur Unterscheidung werden verschiedene Farben des Boards verwendet.
 
 * **Gestaltung** - Für das Material des Boards und der Wände wurde _Billardfilz_ als Textur verwendet. Für den Boden wurde eine metallische Oberfläche gewählt.
 
@@ -54,6 +54,8 @@ Die Szene zur Inspektion des Fluggerätes erfüllt alle in der Aufgabenstellung 
 ### Teil 3 - Cockpit
 Die Szene im Cockpit des Fluggerätes erfüllt alle in der Aufgabenstellung (Blatt 2) beschriebenen grundlegenden Anforderungen wie die das XR Origin im Cockpit oder die WASD-Steuerung. Im Folgenden sollen einige Details und Erweiterungen näher beschrieben werden.
 
+![Bild](docs/cockpit.png)
+
 * **Verbesserungen am Flugmodell**
      * **Sound** - Es wurde eine 3D-Soundquelle für die laufenden Triebwerke eingebaut.
      * **Partikelsystem** - Es wurde ein Rauch-Partikelsystem hinzugefügt, welche die Abgase darstellen sollen.
@@ -75,6 +77,8 @@ Die Joystick-Steuerung wurde wie beschrieben in der Szene Cockpit implementiert.
 
 ### Teil 2 und 3 - Info-Panel
 Es wurde ein Info-Panel erstellt, welches die geforderten Informationen "Höhe" und "Geschwindigkeit" enthält sowie ein Warnungs-Symbol besitzt, welches bei der Unterschreitung der Mindesthöhe aufleuchtet. Das Info-Panel findet sich im Cockpit oder als HUD. Im Folgenden sollen die Erweiterungen näher beschrieben werden.
+
+![Bild](docs/infopanel.png)
 
 * **Einfärbung der Höhenangabe** - Die Höhenangabe färbt sich rot, wenn die Mindesthöhe unterschritten wird.
 
@@ -108,18 +112,22 @@ Auf der Grundlage der zur Verfügung gestellten Anleitung wurden **zwei Buttons*
 
 * **Slider** – Auf Basis des Buttons wurde ein Slider erstellt. Dieser steuert die Intensität der Bordkanone.
 
-## Teil 2 – Inclination und Horizon
+### Teil 2 – Inclination und Horizon
 Die Anzeige von *Inclination* und *Horizon* wurde wie beschrieben realisiert. Zusätzlich wurde ein Mechanismus für die Inklination basierend auf dem Flugzeug eingebaut. Hierfür wurde ein zusätzliches Skript erstellt.
 
 > Das Video zur Szene Hand Interaction ist [hier](https://1drv.ms/v/s!AtQYIMPjZihlgf8afeciaMoV3pPbJg?e=Jdt7Ta) auf OneDrive verfügbar. Es zeigt alle Änderungen in Blatt 4. (https://1drv.ms/v/s!AtQYIMPjZihlgf8afeciaMoV3pPbJg?e=Jdt7Ta)
 
 
+</br>
+
 ----
 
-## Videos
-Die Videos stehen auf Microsoft OneDrive zur Verfügung. Die Links zu den Videos befinden sich an den entsprechenden Stellen in der Dokumentation. Nachfolgend sind alle Videos aufgelistet.
+</br>
 
-* [Blatt 1 – Roll a Ball.mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8XIMUy4EVqk_IB4w?e=JhwkNN)
-* [Blatt 2 bis 4 – Flugsimulator (Inspektion).mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8Yf7sgUFY0-mGAlA?e=AGtPiR)
-* [Blatt 2 bis 4 – Flugsimulator (Cockpit).mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8Zc4CYjeVBSSvpvA?e=n8L6ps)
-* [Blatt 2 bis 4 – Flugsimulator (Hand Interaction).mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8afeciaMoV3pPbJg?e=Jdt7Ta)
+## Videos
+Die Videos stehen auf Microsoft OneDrive zur Verfügung. Die Links zu den Videos und die Beschreibung des Inhalts befinden sich an den entsprechenden Stellen in der Dokumentation. Nachfolgend sind alle Videos aufgelistet.
+
+* [**Blatt 1** – Roll a Ball.mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8XIMUy4EVqk_IB4w?e=JhwkNN)
+* [**Blatt 2 bis 4** – Flugsimulator (Inspektion).mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8Yf7sgUFY0-mGAlA?e=AGtPiR)
+* [**Blatt 2 bis 4** – Flugsimulator (Cockpit).mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8Zc4CYjeVBSSvpvA?e=n8L6ps)
+* [**Blatt 2 bis 4** – Flugsimulator (Hand Interaction).mov](https://1drv.ms/v/s!AtQYIMPjZihlgf8afeciaMoV3pPbJg?e=Jdt7Ta)
